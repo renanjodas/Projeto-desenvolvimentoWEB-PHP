@@ -1,0 +1,192 @@
+.conteudo-validar {
+    font-size: 18px;
+    margin-left: 40%;
+}
+
+@media screen and (max-width:480px){
+
+    .caixa{
+        padding-left: 0;
+        padding-right: 0;
+        height: 190px;
+    }
+
+    .logo-superior{
+        margin: 5px auto;
+        float: none;
+        padding-left: 17px;
+    }
+
+    .logo-superior img {
+        width: 80%;
+        
+    }
+
+    main {
+        width:100%;
+    }
+
+    li .icones-principal {
+        float: initial;
+        /* max-height: min-content; */
+        margin: 5px 0 0px;
+    }
+
+    nav li {
+        font-size: 16px;
+        padding: 0 6px;
+        margin: 0;
+        line-height: initial;
+    }
+
+    nav li a {
+        font-size: 21px;
+    }
+
+    nav ul{
+        text-align: center;
+        margin: 20px 0; 
+    }
+
+    .lista-servicos li {
+        display: inline-block;
+        width: 100%;
+        break-after: unset;
+        margin: inherit;
+        padding: 10px 2px;
+        line-height: 1.2;    
+        text-align: center;
+    }
+
+    nav {
+        margin: 3px 10px;
+        position: initial;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: initial;
+    }
+
+    li h3 {
+        color: darkorange;
+        font-weight: bold;
+        text-align: center;
+        margin: 12px 3px 2px;
+        padding-left: initial;
+    }
+    li p {
+        text-align: center;
+        margin: 2px 10px;
+        padding: 0 10px 0 0;
+        font-size: 0.80em;
+        vertical-align: middle;
+    }
+
+    .titulo-destaque {
+        padding: 15px 10px 80px;
+        margin: -1px auto;
+    }
+
+    .titulo-destaque h1 {
+        font-size: 30px;
+        padding: 15px 5px 20px;
+    }
+
+    .titulo-destaque .destaque {
+        font-size: 32px;
+    }
+
+    .titulo-destaque .missao {
+        font-size: 15px;;
+    }
+
+    .conteudo-servicos {
+        font-size: 18px;
+        padding-left: initial;
+        margin: initial;
+        vertical-align: middle;
+        max-width: 100%;
+    }
+
+    .principal{
+        margin-bottom: 20px;
+    }
+
+    .contato-form {
+        width: 80%;
+        margin: 40px auto;
+        border: 2px solid orangered;
+        padding: 2em;
+        text-align: left;
+        border-radius: 30px;
+        box-sizing: border-box;
+    }
+
+    /*     Pagina Orçamento    */
+
+    .conteudo-orcamento {
+        border: none;
+        border-radius: unset;
+        border-top-right-radius: unset;
+        border-top-left-radius: unset;
+        margin: auto;
+        padding: 0px;
+    }
+
+    .primeira-coluna {
+        display: initial;
+        width: unset;
+        margin: initial;
+        border-right: none;
+    }
+
+    .segunda-coluna {
+        vertical-align: unset;
+        display: unset;
+        width: 100%;
+        margin: 40px auto 15px;
+    }
+
+    .conteudo-consulta {
+        border: 2px solid orangered;
+        padding: 1.5em;
+        margin: 50px 40px 30px;
+        border-radius: 30px;
+        box-sizing: border-box;
+        
+    }
+
+    .form-consulta .enviar-consulta {
+        margin-top: 10px;
+        padding: 0.8em;
+        border-radius: 15px;
+    }
+
+    .titulo-destaque-orcamento {
+        background: rgb(44, 44, 44);
+        font-size: 30px;
+        font-weight: 400;
+        color: orangered;
+        padding: 0 15px 30px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .conteudo-validar {
+        margin: 2px 20px;
+    }
+
+    .conteudo-login {
+        margin: unset;
+        padding: 0;
+        height: auto;
+    }
+
+    .form-login {
+        border: 2px solid darkorange;
+        border-radius: 30px;
+       margin: 40px;
+        padding: 20px 10px 10px;
+        text-align: center;
+        width: unset;
+    }
+}

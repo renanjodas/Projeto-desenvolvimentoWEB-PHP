@@ -1,0 +1,238 @@
+
+body {
+    font-family: 'Istok Web', sans-serif;
+}
+
+header {
+    background: rgb(44, 44, 44);
+    padding: 1.2em 0 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caixa {
+    padding-left: 2em;
+    padding-right: 1.7em;
+    margin: 10px auto;
+    
+}
+
+.logo-superior {
+    float: left;
+    width: 120px;
+    clear: right;
+    top: 1.5em;
+}
+
+nav {
+    position: relative;
+    top: 1.6em;
+    padding-left: 2em;
+    padding-right: 1.1em;
+    text-align: end;
+    margin: 0px auto 10px 170px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 10px;
+    padding: 10px;
+    line-height: 1.7;
+}
+
+nav a {
+    font-size: 23px;
+    color: darkorange;
+    /*font-weight: bold;*/
+    /*text-transform: uppercase;*/
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: 1px solid orangered;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 21px;
+}
+
+.titulo-destaque {
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    padding: 15px;
+    margin: 60px auto 50px;
+    text-align: center;
+}
+
+.titulo-destaque .destaque {
+    font-size: 40px;
+    font-weight: 400;
+    color: orangered;
+}
+
+.usuario-logado {
+    color: lightgray;
+    text-align: end;
+    font-size: 15px;
+    padding-right: 30px;
+    
+    margin-right: 0px;
+    display: block;
+
+}
+
+.principal {
+    min-height: 600px;
+}
+
+/* ----- MENU VERTICAL ----- */
+
+.vertical-menu {
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+    height: 577px;
+    margin-right: 2px;
+    border-right: 2px solid orangered;
+    padding-right: 12px;
+}
+
+.vertical-menu a, .titulo-menu-lateral {
+    background-color: #eee; 
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px 0 12px 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    width: 100%;
+}
+  
+.vertical-menu .titulo-menu-lateral {
+    text-align: center;
+    background-color: orangered; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.vertical-menu a:hover {
+    background-color: darkorange; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+/* ----- CONTEUDO PRINCIPAL ----- */
+
+.conteudo-principal {
+    display: inline-block;
+    margin: 40px 1.2em;
+    padding: 2px;
+    height: 570;
+    width: 80%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-weight: bolder;
+    color: darkorange;
+    font-size: 22px;
+    margin: 0 auto 20px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+ 
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+.texto-principal {
+    text-align: center;
+    font-size: 18px;
+}
+
+/*----------- Orcamento Analisar -------------*/
+
+.form-alterar, .conteudo-alterar-usuario, .conteudo-cadastrar-usuario {
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.conteudo-alterar-usuario, .conteudo-cadastrar-usuario {
+    height: 540px;
+    margin-top: 50px;
+}
+
+.form-alterar strong:not(#titulo-orcamento-analisar) {
+    font-weight: bolder;   
+}
+
+.form-alterar ~ input {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#titulo-orcamento-analisar {
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: darkorange;
+    font-size: 22px;
+    margin: 0 auto 20px;
+}
+
+.form-alterar span{
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.form-alterar input{
+    margin-bottom: 10px;
+}
+
+.form-alterar textarea{
+    resize:none;
+}
+
+.conteudo-principal .btn-cadastrar {
+    display: block;
+    width: 15%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1.1em 2em 0 auto;
+    text-align: center;
+}
+
+.conteudo-principal .table-usuarios {
+    margin: 10px auto;
+}
+
+.table-usuarios .btn, .btn {
+    text-decoration: none;
+    color: darkorange;
+}
+
+.table-usuarios .btn:hover, .btn{
+    color: darkorange;
+    transform: scale(1.05);
+}
+
+/*-------- RODAPÉ --------*/
+
+footer {
+    text-align: center;
+    padding: 4em auto;
+}
+
+.copyright {
+    color: darkorange;
+    font-size: 13px;
+    margin: 3em auto 1.1em;
+}

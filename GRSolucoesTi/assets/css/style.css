@@ -1,0 +1,536 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+}
+
+header {
+    background: rgb(44, 44, 44);
+    padding: 1.2em 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caixa {
+    padding-left: 2em;
+    padding-right: 1.7em;
+    margin: 10px auto;
+    height: 170px;
+}
+
+.logo-superior {
+    float: left;
+    width: 170px;
+    clear: right;
+    top: 1.5em;
+}
+
+nav {
+    position: relative;
+    top: 1.6em;
+    padding-left: 2em;
+    padding-right: 1.1em;
+    text-align: end;
+    margin: 0px auto 10px 170px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 10px;
+    padding: 10px;
+    line-height: 1.7;
+}
+
+nav a {
+    font-size: 23px;
+    color: darkorange;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: 1px solid orangered;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 21px;
+}
+
+.titulo-destaque {
+    background: rgb(44, 44, 44);
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    padding: 15px 0 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo-destaque .destaque {
+    font-size: 40px;
+    font-weight: 400;
+    color: orangered;
+}
+
+.titulo-destaque .missao {
+    font-size: 23px;
+    font-weight: 400;
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+/*Conteudo principal - main*/
+
+.imagem-principal {
+    background: linear-gradient(rgb(44, 44, 44) 50%, white 50%);
+    text-align: center;
+}
+
+.imagem-principal img {
+    min-height: 33%;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.principal {
+    padding: 4em 1.2em 1.1em;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1em;
+    height: 150px;
+}
+
+main .resultado {
+    font-weight: bold;
+}
+.principal strong {
+    font-weight: bold;
+    color: darkorange;
+}
+
+.titulo-principal {
+    text-align: center;
+    margin: 0 0 1em;
+    clear: left;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.conteudo-servicos {
+    font-size: 18px;
+    padding-left: 1.3em;
+    margin: 1.5em 1.1em 4em;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.lista-servicos li {
+    display: inline-block;
+    width: 48%;
+    break-after: right;
+    margin: 3px 4px 4em 4px;
+    padding-left: 6px;
+    line-height: 1.2;
+    vertical-align: top;
+}
+
+li .itens {
+    text-align: center;
+    display: inline-block;
+    margin: 3px 4px 5em 4px;
+    display: inline-block;
+}
+
+li .icones-principal {
+    float: left;
+}
+
+li h3 {
+    color: darkorange;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 2px;
+    padding-left: 115px;
+}
+
+li p {
+    text-align: center;
+    margin-left: 2px;
+    padding-left: 115px;
+    font-size: 0.80em;
+    vertical-align: middle;
+}
+
+/* ---- Área de Contato ---- */
+
+.contato-form {
+    width: 40%;
+    margin: auto;
+    border: 2px solid orangered;
+    padding: 2em;
+    text-align: left;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+form legend {
+    display: block;
+    font-weight: bold;
+    color: orangered;
+    margin: 0 0 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    font-size: 14px;
+    margin: 5px 0 1px;
+}
+
+form .caixa-input {
+    margin: 2px 0;
+}
+
+form .input-contato {
+    width: 100%;
+    margin-bottom: 1.01em;
+}
+
+.contato-form textarea {
+    resize: none;
+    min-width: 100%;
+}
+
+.enviar {
+    display: block;
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1.1em auto 0;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.05);
+}
+
+
+/*-------- RODAPÉ --------*/
+
+footer {
+    text-align: center;
+    padding: 4em auto;
+}
+
+.copyright {
+    color: darkorange;
+    font-size: 13px;
+    margin: 3em auto 1.1em;
+}
+/*
+@media screen and (max-width:480px){
+
+    .logo-superior {
+        width: 40px;
+    }
+
+    main {
+        width:100%;
+        margin: 4px 0px;
+    }
+
+    .icones-principal {
+        display: block;
+        width: 60%;
+
+    }
+
+    .lista-servicos {
+        display: inline-block;
+        width: 60%;
+        break-after: right;
+        margin: 3px 4px 4em 4px;       
+    }
+
+}
+*/
+
+/*Pagina Orçamento*/
+
+
+.titulo-destaque-orcamento {
+    background: rgb(44, 44, 44);
+    font-size: 40px;
+    font-weight: 400;
+    color: orangered;
+    padding: 0 15px 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.conteudo-orcamento {
+    border: 2px solid darkorange;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    margin: auto;
+    padding: 2px;
+}
+
+.primeira-coluna {
+    display: inline-block;
+    width: 47%;
+    margin: 5px;
+    border-right: 2px solid darkorange;
+}
+
+.form-orcamento {
+    padding: 1.5em;
+    margin: 30px 1.2em;
+}
+
+.form-orcamento legend {
+    display: block;
+    font-weight: bold;
+    color: orangered;
+    margin: 0 0 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form-orcamento .legend-orcamento {
+    text-align: left;
+    font-size: 18px;
+    max-width: max-content;
+}
+
+.form-orcamento .label-orcamento {
+    display: inline-block;
+    margin: 4px 0;
+}
+
+.form-orcamento #telefone {
+    font-size: 16px;
+    margin: 0 0px 10px;
+}
+
+.form-orcamento .input, select{
+    margin: 0 0px 10px;
+    width: 100%;
+    line-height: 18px;
+    font-size: 16px;
+    padding: 2px;
+}
+
+.form-orcamento .input-radio {
+    margin: 0 2px 10px;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.form-orcamento textarea {
+    resize: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.enviar .enviar-orcamento {
+    margin-top: 10px;
+    padding: 0.8em 1.5em;
+    margin-right: 1.5em;
+    margin-left: auto;
+    width: auto;
+}
+
+.segunda-coluna {
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    margin: 5px;
+}
+
+.conteudo-consulta {
+    padding: 1.5em;
+    margin: 30px 1.2em;
+}
+
+.form-consulta {
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    height: 100%;
+}
+
+.form-consulta .label-consulta {
+    display: inline-block;
+    margin: 4px 0 0px;
+}
+
+.form-consulta .input-consulta {
+    margin: 0px 0px 10px;
+    width: auto;
+    line-height: 18px;
+    font-size: 16px;
+}
+
+.form-consulta .enviar-consulta {
+    margin-top: 10px;
+    padding: 0.8em 1.5em;
+}
+
+
+
+
+/*Tela de Login*/
+
+.conteudo-login {
+    margin: 40px 1.2em;
+    padding: 2px;
+    height: 500px;
+}
+
+.form-login {
+    border: 2px solid darkorange;
+    border-radius: 30px;
+    margin: 60px auto;
+    padding-top: 30px;
+    text-align: center;
+    width: 400px;
+}
+
+.legend-login {
+    margin-bottom: 30px;
+}
+
+.label-login {
+    font-size: 18px;
+}
+
+.input-login {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.enviar-login {
+    margin-top: 30px;
+    padding: 0.8em 1.5em;
+    width: auto;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto 30px;
+}
+
+.enviar-login:hover {
+    background: darkorange;
+    transform: scale(1.05);
+}
+
+/*Pagina de erro na consulta*/
+
+.erro-consulta {
+    margin: 20px;
+}
+
+.button-erro {
+    margin-top: 30px;
+    padding: 0.8em 1.5em;
+    width: auto;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto 30px;
+}
+
+
+
+
+/*Pagina de Consulta*/
+
+
+
+.resultado {
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+strong {
+    font-size: 20px;
+    color: orangered;
+    
+}
+
+
+
+/*
+form {
+    margin: 40px 35%;
+    border: 2px solid orangered;
+    padding: 2em;
+    text-align: center;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+form legend {
+    display: block;
+    font-weight: bold;
+    color: orangered;
+    margin: 0 0 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 5px;
+    
+}
+
+.input-login {
+    display: inline-block;
+    position: relative;
+    padding: 5px 10px;
+    margin: 0 0 20px;
+    width: 70%;
+    font-size: 1.2em;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.1);
+}
+*/
